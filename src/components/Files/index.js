@@ -8,17 +8,17 @@ const Files=(props)=>{
     const selectedFolderList=useContext(SelectedContext);
    
     return(
-        <div className="max-h-[250px] relative overflow-y-auto w-4/5 mt-8 bg-neutral-100   ">
-             <div className="h-50px w-full sticky  bg-cyan-50 flex flex-row justify-between items-center">
+        <div className="max-h-[450px] h-[300px] relative overflow-y-auto w-4/5 mt-8 bg-neutral-100   ">
+             <div className="h-[50px] w-full sticky  bg-cyan-50 flex flex-row justify-between items-center">
             <div className="flex flex-row items-center">
-                <p className="text-Cyan-200 text-2xl ml-2">Backup Set Name:</p>
-                <select className="text-Cyan-200 text-2xl ml-2" value="Deafult Backup Set">
-                    <option name="Deafult Backup Set" value="Deafult Backup Set">Deafult Backup Set</option>
+                <p className="text-Cyan-200 text-base ml-2">Backup Set Name:</p>
+                <select className="text-Cyan-200 text-base ml-2" value="Deafult Backup Set">
+                    <option name="Deafult Backup Set" className="text-base" value="Deafult Backup Set">Deafult Backup Set</option>
                 </select>
             </div>
             <div className="flex flex-row items-center">
-            <p className="text-Cyan-200 text-2xl ml-2">Backup Schedule</p>
-               <div className="h-20px w-20px rounded-2xl bg-black"> <FaChevronRight size={25} fill="white"/></div>
+            <p className="text-Cyan-200 text-base ml-2">Backup Schedule</p>
+               <div className="h-20px w-20px rounded-2xl ml-1 bg-black"> <FaChevronRight size={25} fill="white"/></div>
             </div>   
         </div>
 

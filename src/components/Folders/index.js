@@ -8,20 +8,20 @@ const Folders=(props)=>{
    
     return(
     <div className="h-150px w-4/5 bg-neutral-100   ">
-        <div className="h-50px w-full  bg-cyan-50 flex flex-row justify-end items-center">
+        <div className="h-[50px] w-full  bg-cyan-50 flex flex-row justify-end items-center">
             <div className="flex flex-row items-center">
                 <div className="h-20px w-20px rounded-2xl bg-black">
-                   <FaArchive size={25} fill="white"/>
+                   <FaArchive size={15} fill="white"/>
                 </div>
-                <p className="text-Cyan-200 text-2xl ml-2">Archive Cleanup</p>
+                <p className="text-Cyan-200 text-base ml-2">Archive Cleanup</p>
             </div>
-            <div className="flex flex-row items-center">
-               <div className="h-20px w-20px rounded-2xl bg-black"> <CiSearch size={25} fill="white"/></div>
-                <p className="text-Cyan-200 text-2xl ml-2">Search</p>
+            <div className="flex flex-row ml-3 items-center">
+               <div className="h-20px w-20px rounded-2xl bg-black"> <CiSearch size={15} fill="white"/></div>
+                <p className="text-Cyan-200 text-base ml-2">Search</p>
             </div>
-            <div className="ml-3 flex flex-row items-center">
-                <HiPlusCircle size={25} fill="text-#a5f3fc"/>
-                <p className="text-Cyan-200 text-2xl">Create new Backup Set</p>
+            <div className="ml-3 flex flex-row ml-3 items-center">
+                <HiPlusCircle size={15} fill="text-#a5f3fc"/>
+                <p className="text-Cyan-200 text-base">Create new Backup Set</p>
             </div>
         </div>
 
